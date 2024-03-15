@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Route (
+    Route_Id INT AUTO_INCREMENT PRIMARY KEY,
+    FromTown VARCHAR(50),
+    To_Town VARCHAR(50)
+
+)  
