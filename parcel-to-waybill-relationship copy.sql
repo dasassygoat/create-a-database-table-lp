@@ -1,2 +1,0 @@
-ALTER TABLE logistica.parcels ADD INDEX WaybillID_idx (Waybill_Id ASC) VISIBLE; 
-ALTER TABLE logistica.parcels ADD CONSTRAINT Waybill_ID FOREIGN KEY (Waybill_Id) REFERENCES logistica.waybills(Waybill_Id) ON DELETE NO ACTION ON UPDATE NO ACTION;
