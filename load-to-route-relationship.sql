@@ -1,0 +1,2 @@
+ALTER TABLE logistica.loads ADD INDEX RouteID_idx (Route_Id ASC) VISIBLE; 
+ALTER TABLE logistica.loads ADD CONSTRAINT Route_ID FOREIGN KEY (Route_Id) REFERENCES logistica.routes(Route_Id) ON DELETE NO ACTION ON UPDATE NO ACTION;
